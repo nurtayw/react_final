@@ -1,0 +1,133 @@
+.container.reviews__container {
+    width: 58%;
+    margin-top: 4rem;
+}
+
+.reviews__form {
+    margin-bottom: 2rem;
+}
+
+.reviews__form input,
+.reviews__form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    color: var(--color-white);
+}
+
+.reviews__form input[type="text"],
+.reviews__form input[type="email"] {
+    margin-bottom: 1rem;
+}
+
+.reviews__form textarea {
+    margin-bottom: 1.5rem;
+}
+
+.reviews__form button {
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.reviews__form button:hover {
+    background-color: cornflowerblue;
+}
+
+.reviews__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.reviews__item {
+    background-color: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.reviews__item strong {
+    font-weight: 600;
+}
+
+.reviews__item h4 {
+    margin-bottom: 0.5rem;
+}
+
+.reviews__item p {
+    margin: 0;
+}
+
+.reviews__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.reviews__item {
+    background-color: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews__item strong {
+    font-weight: 600;
+}
+
+.reviews__item button {
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.reviews__item button:hover {
+    background-color: dodgerblue;
+}
+.reviews__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.reviews__item {
+    background-color: var(--color-bg-variant);
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.reviews__item strong {
+    font-weight: bold;
+}
+
+.reviews__item div {
+    margin-top: 10px;
+}
+
+.reviews__item button {
+    margin-right: 10px;
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reviews__item button:hover {
+    background-color: royalblue;
+}
+
